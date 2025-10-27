@@ -16,6 +16,6 @@ cards.forEach(card => {
 confirmBtn.addEventListener('click', () => {
   if (selectedCard) {
     localStorage.setItem('cardSelecionado', selectedCard);
-    window.location.href = 'inicio.html';
+    window.location.href = 'html/inicio.html';
   }
 });
