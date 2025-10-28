@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background-color: #d81e1e;
+  font-family: 'Press Start 2P', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  width: 330px; 
+  border-radius: 15px;
+  overflow: hidden;
+  color: #ffe8e8;
+  text-align: center;
+  box-shadow: 16px 16px rgba(63, 53, 53, 0.4);
+}
+
+.header {
+  background: linear-gradient(#f50909, #be5353);
+  padding: 60px 10px;
+}
+
+.header h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.header h3 {
+  font-size: 13px;
+  color: #fcc900;
+  margin-top: 10px;
+  line-height: 1.7;
+}
+
+.header h3 span {
+  font-size: 12px;
+  color: #ffcc00;
+}
+
+.content {
+  display: inline-flexbox;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #001a33;
+  text-align: left;
+  height: 220px;
+  position: relative;
+  top: -50px;
+}
+
+.avatar img {
+  width: 140px;
+  height: 110px;
+  position: relative;
+
+}
+
+.info { 
+  margin-left: 150px;
+  font-size: 8px;
+}
+
+.info .placeholder {
+  background: #b3b0b0;
+  display: inline-block;
+  width: 130px;
+  height: 18px;
+  vertical-align: middle;
+  border-radius: 20px;
+  position: relative;
+  top: 5px;
+}
+
+.info .class {
+  background: #b6b1b1;
+  display: inline-block;
+  width: 130px;
+  height: 18px;
+  border-radius: 20px;
+  position: relative;
+  top: 5px;
+}
+
+.info .xp-bar {
+  background: #c0bdbd;
+  height: 20px;
+  width: 300px;
+  border-radius: 20px;
+  margin-top: 4px;
+  position: relative;
+  right: 130px;
+}
+
+.info .xp-fill {
+  background: #ffd23f;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px  20px;
+}
+
+.achievements {
+  background: linear-gradient(to top,#ff0000, #e61919,#e21717);
+  color: #e7d10b;
+  padding: 20px 30px 20px;
+  text-align: center;
+  height: 50px;
+}
+
+.achievements p {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 39px;
+  position: relative;
+  top: -80px;
+}
+
+.cabecalho {
+  position: relative;
+  top: -75px;
+}
+
+#conquistas {
+  position: relative;
+  top: -80px;
+  font-size: 20px;
+}
